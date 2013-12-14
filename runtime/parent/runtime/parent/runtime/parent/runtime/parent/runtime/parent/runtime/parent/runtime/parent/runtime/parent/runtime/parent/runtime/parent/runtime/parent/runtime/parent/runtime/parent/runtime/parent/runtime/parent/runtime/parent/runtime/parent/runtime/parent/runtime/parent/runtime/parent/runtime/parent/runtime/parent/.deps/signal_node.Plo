@@ -1,0 +1,92 @@
+signal_node.lo: runtime/signal_node.c runtime/signal_node.h \
+ runtime/rts-common.h include/cilk/common.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/stdlib.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/semaphore.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/include/bits/semaphore.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h runtime/bug.h runtime/cilk_malloc.h
+
+runtime/signal_node.h:
+
+runtime/rts-common.h:
+
+include/cilk/common.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/stdlib.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/semaphore.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/semaphore.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+runtime/bug.h:
+
+runtime/cilk_malloc.h:

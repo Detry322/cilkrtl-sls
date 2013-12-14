@@ -1,0 +1,69 @@
+full_frame.lo: runtime/full_frame.c runtime/full_frame.h \
+ runtime/rts-common.h runtime/worker_mutex.h include/cilk/common.h \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h include/internal/abi.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h \
+ runtime/cilk_fiber.h runtime/bug.h runtime/cilk-tbb-interop.h \
+ runtime/spin_mutex.h runtime/cilk_malloc.h runtime/stats.h runtime/os.h \
+ runtime/jmpbuf.h /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/sigset.h runtime/frame_malloc.h
+
+runtime/full_frame.h:
+
+runtime/rts-common.h:
+
+runtime/worker_mutex.h:
+
+include/cilk/common.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+include/internal/abi.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h:
+
+runtime/cilk_fiber.h:
+
+runtime/bug.h:
+
+runtime/cilk-tbb-interop.h:
+
+runtime/spin_mutex.h:
+
+runtime/cilk_malloc.h:
+
+runtime/stats.h:
+
+runtime/os.h:
+
+runtime/jmpbuf.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/sigset.h:
+
+runtime/frame_malloc.h:

@@ -1,0 +1,88 @@
+c_reducers.lo: runtime/c_reducers.c include/cilk/reducer_opadd.h \
+ include/cilk/reducer.h include/cilk/hyperobject_base.h \
+ /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h \
+ include/cilk/common.h /usr/include/assert.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ include/cilk/metaprogramming.h include/cilk/reducer_opand.h \
+ include/cilk/reducer_opmul.h include/cilk/reducer_opor.h \
+ include/cilk/reducer_opxor.h include/cilk/reducer_min_max.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/limits.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h
+
+include/cilk/reducer_opadd.h:
+
+include/cilk/reducer.h:
+
+include/cilk/hyperobject_base.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h:
+
+include/cilk/common.h:
+
+/usr/include/assert.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+include/cilk/metaprogramming.h:
+
+include/cilk/reducer_opand.h:
+
+include/cilk/reducer_opmul.h:
+
+include/cilk/reducer_opor.h:
+
+include/cilk/reducer_opxor.h:
+
+include/cilk/reducer_min_max.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/limits.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:

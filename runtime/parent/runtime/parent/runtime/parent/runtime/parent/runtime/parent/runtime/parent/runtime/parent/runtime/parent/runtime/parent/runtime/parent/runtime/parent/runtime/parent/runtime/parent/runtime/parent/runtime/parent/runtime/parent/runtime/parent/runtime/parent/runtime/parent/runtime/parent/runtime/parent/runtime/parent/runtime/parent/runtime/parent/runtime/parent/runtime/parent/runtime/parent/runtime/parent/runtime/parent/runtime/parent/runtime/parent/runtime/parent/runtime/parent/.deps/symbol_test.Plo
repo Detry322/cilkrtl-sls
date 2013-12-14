@@ -1,0 +1,1 @@
+symbol_test.lo: runtime/symbol_test.c

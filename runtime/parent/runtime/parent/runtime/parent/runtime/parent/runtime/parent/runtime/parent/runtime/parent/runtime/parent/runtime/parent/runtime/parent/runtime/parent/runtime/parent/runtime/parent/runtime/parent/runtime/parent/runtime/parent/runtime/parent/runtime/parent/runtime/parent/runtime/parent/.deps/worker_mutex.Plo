@@ -1,0 +1,48 @@
+worker_mutex.lo: runtime/worker_mutex.c runtime/worker_mutex.h \
+ include/cilk/common.h /usr/include/assert.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h runtime/rts-common.h \
+ runtime/bug.h runtime/os.h runtime/cilk-tbb-interop.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h \
+ runtime/stats.h include/internal/abi.h
+
+runtime/worker_mutex.h:
+
+include/cilk/common.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+runtime/rts-common.h:
+
+runtime/bug.h:
+
+runtime/os.h:
+
+runtime/cilk-tbb-interop.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h:
+
+runtime/stats.h:
+
+include/internal/abi.h:

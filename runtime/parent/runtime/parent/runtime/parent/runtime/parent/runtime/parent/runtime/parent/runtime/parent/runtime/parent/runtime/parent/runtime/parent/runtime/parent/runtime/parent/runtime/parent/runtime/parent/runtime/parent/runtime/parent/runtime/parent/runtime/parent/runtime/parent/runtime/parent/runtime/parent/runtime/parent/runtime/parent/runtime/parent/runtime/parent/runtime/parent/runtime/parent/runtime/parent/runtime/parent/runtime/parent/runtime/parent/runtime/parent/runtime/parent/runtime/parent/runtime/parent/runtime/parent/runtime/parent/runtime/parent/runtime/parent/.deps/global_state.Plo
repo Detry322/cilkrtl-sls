@@ -1,0 +1,271 @@
+global_state.lo: runtime/global_state.cpp runtime/global_state.h \
+ include/cilk/common.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cassert \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h runtime/frame_malloc.h \
+ runtime/worker_mutex.h runtime/rts-common.h include/internal/abi.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cstddef \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/os_defines.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+ runtime/stats.h runtime/bug.h runtime/cilk_fiber.h \
+ runtime/cilk-tbb-interop.h runtime/spin_mutex.h runtime/cilk_malloc.h \
+ runtime/os.h runtime/metacall_impl.h include/internal/metacall.h \
+ include/cilk/cilk_api.h runtime/record-replay.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/algorithm \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/utility \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_relops.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_pair.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/move.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/concept_check.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_algobase.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/functexcept.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/exception_defines.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/cpp_type_traits.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/type_traits.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/numeric_traits.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_iterator_base_types.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_iterator_base_funcs.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/debug/debug.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_iterator.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_algo.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/algorithmfwd.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_heap.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_tempbuf.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_construct.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/new \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/exception \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/atomic_lockfree_defines.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/alloc_traits.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/allocator.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/new_allocator.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/memoryfwd.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cstring \
+ /usr/include/string.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/climits \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/limits.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h \
+ /afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h
+
+runtime/global_state.h:
+
+include/cilk/common.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cassert:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+runtime/frame_malloc.h:
+
+runtime/worker_mutex.h:
+
+runtime/rts-common.h:
+
+include/internal/abi.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include/stddef.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cstddef:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++config.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/os_defines.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/cpu_defines.h:
+
+runtime/stats.h:
+
+runtime/bug.h:
+
+runtime/cilk_fiber.h:
+
+runtime/cilk-tbb-interop.h:
+
+runtime/spin_mutex.h:
+
+runtime/cilk_malloc.h:
+
+runtime/os.h:
+
+runtime/metacall_impl.h:
+
+include/internal/metacall.h:
+
+include/cilk/cilk_api.h:
+
+runtime/record-replay.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/algorithm:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/utility:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_relops.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_pair.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/move.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/concept_check.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_algobase.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/functexcept.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/exception_defines.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/cpp_type_traits.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/type_traits.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/numeric_traits.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_iterator_base_types.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_iterator_base_funcs.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/debug/debug.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_iterator.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_algo.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/algorithmfwd.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_heap.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_tempbuf.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/stl_construct.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/new:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/exception:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/atomic_lockfree_defines.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/alloc_traits.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/allocator.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/x86_64-unknown-linux-gnu/bits/c++allocator.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/ext/new_allocator.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/bits/memoryfwd.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cstring:
+
+/usr/include/string.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/climits:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/limits.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/afs/csail.mit.edu/proj/courses/6.172/cilkplus-4_8-install/include/c++/4.8.1/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
